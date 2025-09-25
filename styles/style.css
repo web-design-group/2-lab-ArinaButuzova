@@ -1,0 +1,78 @@
+        nav {
+            margin-left:50px;
+        }
+        nav ul {
+            margin-top: 10px;
+            text-align: left;
+        }
+        nav ul li {
+			font-size: 25px;
+            display: inline;
+            margin: 0 15px; /* отступы между серенькими */
+        }
+        nav ul li a {
+            text-decoration: none; /* ссылка не подчеркивается */
+            color: #888;
+        }
+		
+		nav ul li a:hover {
+            color: #fff
+            
+        }
+		
+		.container {
+		 max-width:1500px;/* максимальная ширина страницы */
+         margin: 0 auto;
+        }
+        section {
+            margin: 20px 20px;
+            padding: 30px 30px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+		
+		section p {
+		font-size: 20px; 
+		margin-bottom:15px;/* растояния между обзацами */
+		}
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: white;
+        }
+        
+		
+		.Taika_Waititi{
+		    float:left;
+			margin: 0 30px 20px 20px;
+			width:35%;
+		}
+		.img_left{
+		    float:left;
+			margin: 0 30px 20px 20px;
+		}
+		.img_right{
+		    float:right;
+			margin: 0 30px 20px 20px;
+		}
+		
+		.grid-container {
+           display: grid;
+           grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+           grid-template-rows: repeat(3, 1fr); /* 3 ряда */
+           gap: 20px; /* Промежуток между ячейками */
+           padding: 20px; /* Внутренний отступ для контейнера */
+        }
+
+        .grid-container2 {
+           display: grid;
+           grid-template-columns: repeat(3, 1fr); /* 4 колонки */
+           grid-template-rows: repeat(3, 1fr); /* 3 ряда */
+           gap: 20px; /* Промежуток между ячейками */
+           padding: 20px; /* Внутренний отступ для контейнера */
+        }
+       .grid-item {
+          overflow: hidden; /* Скрываем переполнение */  
+           
+        }
+		
