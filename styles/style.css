@@ -1,4 +1,4 @@
-        nav {
+      nav {
             margin-left:50px;
         }
         nav ul {
@@ -42,7 +42,7 @@
         }
         
 		
-		.Taika_Waititi{
+		#Taika_Waititi{
 		    float:left;
 			margin: 0 30px 20px 20px;
 			width:35%;
@@ -76,3 +76,4 @@
            
         }
 		
+
